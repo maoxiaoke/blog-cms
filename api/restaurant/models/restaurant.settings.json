@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "restaurants",
   "info": {
-    "name": "restaurant"
+    "name": "restaurant",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -13,7 +14,7 @@
   "attributes": {
     "name": {
       "type": "string",
-      "private": true,
+      "private": false,
       "unique": true,
       "required": true
     },
